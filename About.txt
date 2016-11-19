@@ -1,0 +1,20 @@
+https://github.com/hiddentao/geth-private
+
+
+
+$ geth-private    \
+  --balance 10000 \
+  --genesisBlock `cat genesis.json`
+
+
+$ /Applications/Mist.app/Contents/MacOS/Mist . --rpc http://localhost:8585
+
+
+
+TEST WITH 0.8.6
+
+
+
+
+/Applications/Mist.app/Contents/MacOS/Mist . --rpc ipc:///var/folders/c9/7yfq1h_d63j7rh19d5sww5yw0000gn/T/tmp-14210LEVCrhO5TfTv/geth.ipc
+
